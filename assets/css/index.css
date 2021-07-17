@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300;400;500;600;700&display=swap');
+
+/* font-family: 'Caveat', cursive;
+font-family: 'Antonio', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Lemon;
+    src: url(../fonts/Lemon\ Tuesday.otf);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 800vh;
+}
+
+/* ----- BODY PARALLAX -----  */
+.parallax{
+    background: url(../img/greybg.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+}
+
+/* ----- HEADER  NAVBAR BACKGROUND ----- */
+/* ../img/goldbk.jpg */
+header{
+    background: url(../img/bg2snip.jpg) center/cover no-repeat;
+    opacity: 0.9;
+    /* background-color: #cac1b9; */
+    /* border-bottom: 2px solid #cac1b9;     */
+}
+
+/* ----- WAPPEN ----- */
+header .Wappen{
+    border-radius: 50%;
+    width: 90px;
+}
+
+header nav ul li:first-of-type{
+    font-family: 'Antonio', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+header h1{
+    padding-top: 10px;
+}
+/* ----- ENDE WAPPEN ----- */
+
+
+/* ----- NAVBAR ABOUT WORK CONTACT -----  */
+header nav ul li{
+    display: inline-block;
+    padding-right: 80px;
+    padding-left: 10%;
+    padding-top: 17px;
+    vertical-align: middle;
+    margin-bottom: 35px;
+}
+
+
+header a{
+    text-decoration: none;
+    font-family: 'Antonio', sans-serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-family: 'Caveat', cursive; */
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    transition: 1s;
+    /* text-transform: uppercase; */
+}
+
+/* ----- HOVER NAVBAR ----- */
+header nav ul li a:hover{
+    font-size: 38px;
+    text-shadow: 0px 0px 3px white;
+    transition: 0.6s;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.65);
+}
+
+/* ----- ABOUT ABOUT ABOUT ----- */
+main section{
+    font-family: Lemon;
+}
+
+/* Außergewöhnlich Schöne Kunst.... h2 */
+
+main h2{
+    font-size: 45px;
+    margin-top: 13%;
+    margin-left: 84px;
+    font-weight: 500;
+    text-shadow: 2px 0px 3px rgba(150, 150, 150, 1);
+    opacity: 0.60;
+    /* Ging schneller mit opacity als den Colorpicker zu benutzen :P  */
+}
+
+/* by Jen Posomorat h3 */
+
+main h3{
+    font-size: 28px;
+    margin-left: 30%;
+    padding-top: 6px;
+    font-weight: 100;
+    /* text-shadow: 2px 0px 3px rgba(150, 150, 150, 1); */
+    letter-spacing: 2px;
+    opacity: 0.40;
+}
+
+/* ---------- ABOUT BILD 1 JEN ---------- */
+main .jen{
+    width: 30%;
+    float: right;
+    margin-top: 4%;
+    margin-right: 16%;
+    border-radius: 1px;
+    opacity: 0.94;
+    /* box-shadow: 2px 2px 8px 3px #88888883; */
+}
+
+/* ---------- ABOUT BILD 2 BRUSH ---------- */
+main .brush{
+    float: right;
+    width: 27%;
+    margin-top: 8%;
+    margin-left: 30%;
+    margin-right: 3%;
+    opacity: 0.93;
+    border-radius: 1px;
+    /* box-shadow: 2px 2px 8px 3px #88888883; */
+}
+
+/* MAIN ARTICLE  */
+
+main .lorem{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: justify;
+    letter-spacing: 1px;
+    margin-top: 7%;
+    margin-left: 10%;
+    width: 30%;
+}
+
+/* ---------- JUMP TO TOP ---------- */
+section .jump{
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Antonio', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    /* color: #e0973f; */
+    /* color: #d18b3c; */
+    color: grey;
+    margin-left: 60%;
+    font-weight: 600;
+    font-size: 26px;
+    /* box-shadow: 3px 3px 8px 3px #888888; */
+    padding: 3px;
+    opacity: 0.5;
+}
+/* ---------- BORDER BOTTOM ----------  */
+main article{
+    border-bottom: 1px solid rgba(150, 150, 150, 1);
+    padding-bottom: 270px;
+}
+/* ---------- WORK WORK WORK ----------  */
+
+.work{
+    font-size: 70px;
+    margin-top: 110px;
+    margin-left: 80px;
+    font-weight: 600;
+    text-shadow: 2px 0px 3px rgba(150, 150, 150, 1);
+    text-transform: uppercase;
+    opacity: 1;
+    /* letter-spacing: px ; */
+}
+
+main span{
+    font-size: 25px;
+    font-weight: 100;
+    padding-left: 10px;
+    text-transform: none;
+    text-shadow: 2px 0px 3px rgba(150, 150, 150, 1);
+    letter-spacing: 5px;
+
+}
+
+figure{
+    display: inline-block;
+}
+
+figure figcaption{
+display: inline-block;
+}
+
+main #room img{
+    margin-left: 13%;
+    margin-top: 60px;
+    margin-bottom: 10%;
+    /* width: 35%; */
+    width: 30%;
+    height: 400px;
+    /* box-shadow: 3px 3px 8px 3px #888888; */
+    transition: 0.8s;
+}
+
+main #room img:hover{
+    height: 450px;
+    width: 35%;
+    transition: 1ss;
+    box-shadow: 2px 2px 8px 6px #88888883;
+}
+
+section #room{
+    border-bottom: 1px solid rgba(150, 150, 150, 1);
+    padding-bottom: 270px;
+}
+
+ article a{
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Antonio', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    /* color: #e0973f; */
+    /* color: #d18b3c; */
+    color: grey;
+    margin-left: 45%;
+    font-weight: 600;
+    font-size: 26px;
+    /* box-shadow: 3px 3px 8px 3px #888888; */
+    padding: 3px;
+    opacity: 0.5;
+}
+
+#contact h3{
+    margin-top: 5%;
+    margin-left: 36%;
+    font-size: 50px;
+    opacity: 0.55;
+}
+#contact p{
+    font-family: 'Antonio', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+form{
+    text-align: center;
+    margin-top: 15px;
+}
+
+#mail{
+    /* font-family: 'Antonio', sans-serif; */
+    text-align: center;
+    border: 1px solid lightgrey;
+    padding: 8px 15px;
+    border-radius: 2px;
+    outline: none;
+    box-shadow: 1px 1px 8px 1px #888888;
+    transition: 1s;
+}
+#mail:hover{
+    padding: 10px 100px;
+    transition: 1s;
+    box-shadow: none;
+    letter-spacing: 2px;
+}
+
+#button{
+    /* font-family: 'Antonio', sans-serif; */
+    color: black;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    margin-top: 15px;
+    transition: 1s;
+}
+
+#button:hover{
+    padding: 4px 12px;
+    transition: 0.4s;
+    letter-spacing: 1px;
+}
+
+footer section nav{
+    background-color: grey;
+    /* position: fixed; */
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.wappen2{
+    border-radius: 50%;
+    width: 90px;
+}

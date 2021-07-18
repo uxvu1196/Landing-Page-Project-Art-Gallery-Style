@@ -294,13 +294,12 @@ form{
     letter-spacing: 1px;
 }
 
-footer section nav{
+/* footer section nav{
     background-color: grey;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
-    /* overflow: hidden; */
-}
-
+    overflow: hidden; 
+}*/
 .wappen2{
     border-radius: 50%;
     width: 90px;

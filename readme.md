@@ -6,5 +6,5 @@ Kunden haben unterschiedliche Anforderungen an ihre Landingpage. Such dir eine a
 Erstelle dir zuerst ein Wireframe oder Mockup. Auf dieser Basis kannst du mit dem Programmieren beginnen.
 Auf der zweiten Folie findest du einige Links zum Thema Landingpage sowie Inspirationsquellen für deine Gestaltung.  
 
-_Source:_ https://github.com/uxvu1196/Landing-Page-Project-Art-Gallery-Style
+_Source:_ https://github.com/uxvu1196/Landing-Page-Project-Art-Gallery-Style <br/>
 _Demo:_ https://uxvu1196.github.io/Landing-Page-Project-Art-Gallery-Style/
